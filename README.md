@@ -15,7 +15,7 @@ Contains relevant config files for AWS, e.g. a JSON representation of our API Ga
 Contains static website files.
 
 ##### www/src
-Contains the source code for the website (Slim/SASS/Coffeescript). Edit this to make changes to the site. Run `www/compile_website.bash` to build into HTML/CSS/JS.
+Contains the source code for the website (Pug/SASS/Coffeescript). Edit this to make changes to the site. Run `www/compile_website.bash` to build into HTML/CSS/JS.
 
 ##### www/compiled
 Contents are gitignored by default. Compiled files from `src` will be copied here.
