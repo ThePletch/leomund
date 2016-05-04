@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+  body
+    p Your reservation has been confirmed by Northeastern. Details are below.
+
+    ul
+      each attr in [['attendeeCount', 'Attendees'], ['date', 'Start Date'], ['startTime', 'Start Time'], ['endTime', 'End Time'], ['frequency', 'Frequency'], ['room', 'Room']]
+        li
+          strong= attr[1] + ": "
+          span= item[attr[0]]

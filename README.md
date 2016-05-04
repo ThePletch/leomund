@@ -8,8 +8,8 @@ Leomund exposes a web interface that lets club members submit room requests and 
 ### api
 All Lambda functions go in the correspondingly-named Coffeescript file. `template.coffee` contains a template for new Lambda functions. Run `api/compile_lambdas.bash` to compile lambda functions.
 
-### aws
-Contains relevant config files for AWS, e.g. a JSON representation of our API Gateway configuration.
+### crawler
+Contains the code that automatically fills out the reservations form
 
 ### www
 Contains static website files.
@@ -29,3 +29,4 @@ Unit tests.
 * Replace compilation bash files with Grunt tasks
 * Grunt task to run unit tests
 * Set up NPM to allow easy cloning of above
+* Write up docs on setting up on AWS from scratch

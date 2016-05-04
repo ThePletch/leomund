@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+  body
+    p Your reservation has been rejected by an officer.
+
+    ul
+      each attr in [['attendeeCount', 'Attendees'], ['date', 'Start Date'], ['startTime', 'Start Time'], ['endTime', 'End Time'], ['frequency', 'Frequency']]
+        li
+          strong= attr[1] + ": "
+          span= item[attr[0]]
