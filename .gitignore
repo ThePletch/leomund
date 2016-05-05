@@ -1,4 +1,5 @@
 www/compiled/**
 api/compiled/**
+crawler/compiled/**
 *.DS_Store
 node_modules/*
