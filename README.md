@@ -8,8 +8,11 @@ Leomund exposes a web interface that lets club members submit room requests and 
 ### api
 All Lambda functions go in the correspondingly-named Coffeescript file. `template.coffee` contains a template for new Lambda functions. Run `api/compile_lambdas.bash` to compile lambda functions.
 
-### crawler
+### auto-filler
 Contains the code that automatically fills out the reservations form
+
+### helpers
+Contains helper modules that are compiled and pulled into `node_modules` before Lambda functions are packaged.
 
 ### www
 Contains static website files.
